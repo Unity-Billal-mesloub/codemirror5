@@ -1,31 +1,3 @@
-// CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: https://codemirror.net/5/LICENSE
-
-/**
- * Tag-closer extension for CodeMirror.
- *
- * This extension adds an "autoCloseTags" option that can be set to
- * either true to get the default behavior, or an object to further
- * configure its behavior.
- *
- * These are supported options:
- *
- * `whenClosing` (default true)
- *   Whether to autoclose when the '/' of a closing tag is typed.
- * `whenOpening` (default true)
- *   Whether to autoclose the tag when the final '>' of an opening
- *   tag is typed.
- * `dontCloseTags` (default is empty tags for HTML, none for XML)
- *   An array of tag names that should not be autoclosed.
- * `indentTags` (default is block tags for HTML, none for XML)
- *   An array of tag names that should, when opened, cause a
- *   blank line to be added inside the tag, and the blank line and
- *   closing line to be indented.
- * `emptyTags` (default is none)
- *   An array of XML tag names that should be autoclosed with '/>'.
- *
- * See demos/closetag.html for a usage example.
- */
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
