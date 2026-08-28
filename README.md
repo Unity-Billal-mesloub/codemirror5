@@ -1,4 +1,3 @@
-**This repository has moved to https://code.haverbeke.berlin/codemirror/codemirror5**
 
 # CodeMirror 5
 
