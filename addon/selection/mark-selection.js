@@ -1,11 +1,4 @@
-// CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: https://codemirror.net/5/LICENSE
 
-// Because sometimes you need to mark the selected *text*.
-//
-// Adds an option 'styleSelectedText' which, when enabled, gives
-// selected text the CSS class given as option value, or
-// "CodeMirror-selectedtext" when the value is not a string.
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
