@@ -1,9 +1,3 @@
-// CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: https://codemirror.net/5/LICENSE
-
-// Depends on csslint.js from https://github.com/stubbornella/csslint
-
-// declare global: CSSLint
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
