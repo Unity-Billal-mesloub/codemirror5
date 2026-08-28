@@ -1,9 +1,3 @@
-// CodeMirror, copyright (c) by Marijn Haverbeke and others
-// Distributed under an MIT license: https://codemirror.net/5/LICENSE
-
-// Depends on htmlhint.js from http://htmlhint.com/js/htmlhint.js
-
-// declare global: HTMLHint
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
